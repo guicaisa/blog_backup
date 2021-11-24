@@ -1,0 +1,11 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary {arrows.meta}
+\begin{document}
+\begin{tikzpicture}[scale=2.5,>=Stealth]
+\draw[very thick,->](-2,0)--(2,0) node[right,font=\fontsize{15}{0}\selectfont]{x};
+\draw[very thick,->](0,-2)--(0,2) node[above,font=\fontsize{15}{0}\selectfont]{y};
+\draw[very thick,->](0,0)--(1,0) node[above=10pt,font=\fontsize{18}{0}\selectfont]{$\vec{u}$};
+\draw[very thick,->](0,0)--(0,1) node[left=5pt,font=\fontsize{18}{0}\selectfont]{$\vec{v}$};
+\end{tikzpicture}
+\end{document}
